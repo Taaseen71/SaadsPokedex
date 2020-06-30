@@ -1,0 +1,29 @@
+Images: https://pokeres.bastionbot.org/images/pokemon/1.png
+`https://pokeres.bastionbot.org/images/pokemon/${}.png`
+
+axiosUnpkg: `https://unpkg.com/axios/dist/axios.min.js`
+
+api: https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151
+
+# SaadsPokeDex
+A simple API based webpage that holds information on the first 151 pokemon
+
+species.name:
+species.url:
+https://pokeapi.co/api/v2/pokemon/25
+
+
+flavor_text_entries[2].flavor_text: pokemon Description
+name: "pokemon"
+id: pokemon number;
+evolves_from_species.name: previousPokemon;
+
+https://pokeapi.co/api/v2/pokemon-species/25
+
+https://pokeres.bastionbot.org/images/pokemon/1.png
+ 
+
+
+Same thing
+https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151
+ https://pokeapi.co/api/v2/pokemon-species/?offset=0&limit=151
