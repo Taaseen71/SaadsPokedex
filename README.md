@@ -1,7 +1,7 @@
 
 
  # Project Overview
-https://pages.git.generalassemb.ly/GA-taaseen71/SaadsPokeDex/
+https://taaseen71.github.io/SaadsPokedex/
 ## Project Name
 
 <!-- The name of your project. -->
