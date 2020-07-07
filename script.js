@@ -52,6 +52,8 @@ let pokemonHealth;//? Returns Pokemon Descriptions Variable for getData3
 let audio = document.getElementById("myaudio");
 audio.volume = 0.1;
 
+let loop = 0;
+
 
 /* -------------------------------------------------------------------------- */
 /*                           Getting Data from APIs                           */
@@ -345,8 +347,11 @@ let returnLookup = (e) => {
 
         }
         else {
+            loop += 1;
             console.log('looping through');
-
+            if (loop === 151) {
+                alert("Not Found! Please type a name from the first 151 species, or check if the spelling is correct! ")
+            }
         }
     }
     //TODO: GETTING RESPONSES ON BOTH ENDPOINT APIs. TAKES A LITTLE TIME> BUT EVERY ENTRY IS 3 CALLS IN DATA2;
