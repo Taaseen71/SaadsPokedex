@@ -49,7 +49,8 @@ let pokemonAttack;//? Returns Pokemon Descriptions Variable for getData3
 let pokemonHealth;//? Returns Pokemon Descriptions Variable for getData3
 
 
-
+let audio = document.getElementById("myaudio");
+audio.volume = 0.1;
 
 
 /* -------------------------------------------------------------------------- */

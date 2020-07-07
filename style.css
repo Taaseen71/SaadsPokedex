@@ -1,234 +1,225 @@
 @import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
-@font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
 @font-face {
-  font-family: "myPokemon";
-  src: url('./OnlineWebFonts/PokemonSolid/PokemonSolid.ttf');
+    font-family: "Pokemon";
+    src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot");
+    src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg");
+}
+
+@font-face {
+    font-family: "myPokemon";
+    src: url('./OnlineWebFonts/PokemonSolid/PokemonSolid.ttf');
 }
 
 h1 {
-  font-family: 'myPokemon';
-   color: rgba(255, 129, 64, 1);
-  text-shadow: -1px 0 black, 0 5px black, 2px 0 black, 0 -1px black;
-  display: flex;
-  flex-direction: row;
-  /* background: rgba(4, 97, 4, 0.5); */
-  padding: 0 50px;
+    font-family: 'myPokemon';
+    color: rgba(255, 129, 64, 1);
+    text-shadow: -1px 0 black, 0 5px black, 2px 0 black, 0 -1px black;
+    display: flex;
+    flex-direction: row;
+    /* background: rgba(4, 97, 4, 0.5); */
+    padding: 0 50px;
 }
 
 .refreshTag {
-  text-decoration: none;
-  color:rgba(255, 129, 64, 1);
+    text-decoration: none;
+    color: rgba(255, 129, 64, 1);
 }
 
-
 body {
-  background: rgb(165, 196, 165);
-  text-align: center;
-  /* backdrop-filter: blur(0.5px);
+    background: rgb(165, 196, 165);
+    text-align: center;
+    /* backdrop-filter: blur(0.5px);
   /* I'm very proud of this blur xD */
-  /* -webkit-filter: blur(0.5px); */ 
-  animation: pulse 10s infinite;
+    /* -webkit-filter: blur(0.5px); */
+    animation: pulse 10s infinite;
 }
 
 @keyframes pulse {
-  0% {
-    background-color: rgb(165, 196, 165);
-  }
-  30%{
-    background-color: rgb(183, 167, 204);
-  }
-  60%{
-    background-color: rgb(185, 172, 152);
-  }
-  100%{
-    background-color: rgb(165, 196, 165);
-  }
+    0% {
+        background-color: rgb(165, 196, 165);
+    }
+    30% {
+        background-color: rgb(183, 167, 204);
+    }
+    60% {
+        background-color: rgb(185, 172, 152);
+    }
+    100% {
+        background-color: rgb(165, 196, 165);
+    }
 }
 
 label {
-  font-size: 40px;
-
+    font-size: 40px;
 }
 
-form{
-  font-family: 'myPokemon';
-  font-size: px;
-  color: rgb(252, 214, 0);
-  text-shadow: -2px 0 black, 0 10px black, 4px 0 black, 0 -2px black;
+form {
+    font-family: 'myPokemon';
+    font-size: px;
+    color: rgb(252, 214, 0);
+    text-shadow: -2px 0 black, 0 10px black, 4px 0 black, 0 -2px black;
 }
 
 input {
- width: 300px;
- height: 30px;
- margin: 10px 10px 30px;
- border: 3px solid black;
- border-radius: 5%;
- background: rgb(202, 202, 202);
- font-family: Arial, Helvetica, sans-serif;
- font-size: 20px;
- 
+    width: 300px;
+    height: 30px;
+    margin: 10px 10px 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: rgb(202, 202, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    outline: none;
 }
 
 button {
-  padding: 5px;
-  width: 200px;
-  height: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  font-size: 15px;
-  text-transform: uppercase;
-  background: rgba(255, 129, 64, 1);
-  border-radius: 10%;
-  border: 2px solid black;
- 
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: rgba(255, 129, 64, 1);
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+    box-shadow: 2px 5px rgb(50, 49, 49);
 }
-
 
 button:hover {
-  background-color: rgb(35, 64, 153);
-  color: rgb(255, 255, 255);
-  transition: all 1000ms ease;
+    background-color: rgb(28, 138, 122);
+    color: rgb(255, 255, 255);
+    /* transition: all 1000ms ease; */
 }
 
-.pokedexEntry2{
-  background-color: rgba(35, 65, 153, 0.185);
-  border-radius: 5px;
-  padding: 15px;
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px #999;
 }
 
-.allPokemonList{
+.pokedexEntry2 {
+    background-color: rgba(35, 65, 153, 0.185);
+    border-radius: 5px;
+    padding: 15px;
+}
 
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  text-transform: capitalize;
-  margin: 20px;
- 
-  font-family: 'myPokemon';
-  font-size: 26px;
-  color: rgb(252, 214, 1);
-  text-shadow: -1px 0 black, 0 3px black, 0 4px black, 0 -1px black;
-  /* this creates a nice even border and a shadow all around the font https://stackoverflow.com/questions/2570972/css-font-border */
- 
-
+.allPokemonList {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    margin: 20px;
+    font-family: 'myPokemon';
+    font-size: 26px;
+    color: rgb(252, 214, 1);
+    text-shadow: -1px 0 black, 0 3px black, 0 4px black, 0 -1px black;
+    /* this creates a nice even border and a shadow all around the font https://stackoverflow.com/questions/2570972/css-font-border */
 }
 
 audio {
-  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
     width: 300px;
     height: 25px;
+    margin-bottom: 10px;
+    outline: none;
 }
 
 .kantoPokemon {
-  padding: 30px;
-  height: 300px;
-  justify-content: space-evenly;
-  display: flex;
-  flex-direction: column-reverse;
-  font-family: 'myPokemon';
-  text-align: center;
-  /* controls kanto pokemon list */
-
+    padding: 30px;
+    height: 300px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'myPokemon';
+    text-align: center;
+    /* controls kanto pokemon list */
 }
-
-
 
 .bastionbot {
-  width: 200px;
-  height: 200px;
- padding: 30px;
- /* constrols images in kanto pokemon */
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    /* constrols images in kanto pokemon */
 }
 
-
-
 .bastionbot2 {
-  display:block;
-  width: 300px;
-  height: 300px;
-
+    display: block;
+    width: 300px;
+    height: 300px;
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
-.allPokedexEntries{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
+.allPokedexEntries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .pokedexEntry {
-  display: flex;
-
-  width: 400px;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-transform: capitalize;
-  margin: 20px;
-  font-size: 70px;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    margin: 20px;
+    font-size: 70px;
 }
-.pokedexEntry2 {
-  
-  display: flex;
-  width:400px;
 
-  justify-content: center;
-  flex-wrap: wrap;
-  text-transform: capitalize;
-  margin: 20px;
-  font-size: 70px;
+.pokedexEntry2 {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-transform: capitalize;
+    margin: 20px;
+    font-size: 70px;
 }
 
 .singleStat {
-
-  height: 22px;
-  width: 50px;
-  display: block;
-  text-align:left;
-  flex-direction: column;
-  /* justify-content: space-evenly; */
-  font-size: 15px;
-  font-weight: 800;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 500px;
-  padding: 3px 10px;
-  margin: 5px 30px;
-  border-radius: 5px;
-  background-color:  rgb(221, 158, 213,0.5);
+    height: 22px;
+    width: 50px;
+    display: block;
+    text-align: left;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    font-size: 15px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    padding: 3px 10px;
+    margin: 5px 30px;
+    border-radius: 5px;
+    background-color: rgb(221, 158, 213, 0.5);
 }
 
-.classPokedexEntry{
-
-height: 100px;
-height: 100px;
-padding: 3px 6px;
-margin: 5px 0px;
-width: 1195px;
-font-weight: 600;
-
-background-color: rgba(191, 142, 238, 0.5);
-border-radius: 5px;
+.classPokedexEntry {
+    height: 100px;
+    height: 100px;
+    padding: 3px 6px;
+    margin: 5px 0px;
+    width: 1195px;
+    font-weight: 600;
+    background-color: rgba(191, 142, 238, 0.5);
+    border-radius: 5px;
 }
 
 h3 {
-
-  text-transform: capitalize;
-  font-family: 'myPokemon';
-  font-size: 40px;
-  color: rgb(252, 214, 1);
-  text-shadow: -1px 0 black, 0 8px black, 4px 4px black, 0 -2px black;
-  display: block; 
+    text-transform: capitalize;
+    font-family: 'myPokemon';
+    font-size: 40px;
+    color: rgb(252, 214, 1);
+    text-shadow: -1px 0 black, 0 8px black, 4px 4px black, 0 -2px black;
+    display: block;
 }
 
-
- p {
-  font-size: 20px;
-
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  
-} 
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
 
 footer {
-  margin-top: 600px;
+    margin-top: 600px;
 }
