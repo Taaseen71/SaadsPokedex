@@ -351,6 +351,7 @@ let returnLookup = (e) => {
             console.log('looping through');
             if (loop === 151) {
                 alert("Not Found! Please type a name from the first 151 species, or check if the spelling is correct! ")
+                loop = 0;
             }
         }
     }
