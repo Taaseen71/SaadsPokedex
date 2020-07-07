@@ -197,6 +197,8 @@ const getData3 = (parameter1, div2) => {
             pokemonHealth.classList += ('singleStat');
             pokemonHealth.innerHTML = `HP = ${pokemonStat5}`;
             div2.appendChild(pokemonHealth);
+            loop = 0;
+            console.log("loop reset to " + loop)
         })
     removeButton1();
 }
@@ -335,6 +337,7 @@ let returnLookup = (e) => {
     }
 
     for (let index2 = 0; index2 < globalPokemonArray.length; index2++) {
+
         // console.log(globalPokemonArray[index2]) WORKS
         if (inputLower == globalPokemonArray[index2]) {
             console.log(globalPokemonArray[index2]);// works
@@ -350,8 +353,8 @@ let returnLookup = (e) => {
             loop += 1;
             console.log('looping through');
             if (loop === 151) {
-                alert("Not Found! Please type a name from the first 151 species, or check if the spelling is correct! ")
                 loop = 0;
+                alert("Not Found! Please type a name from the first 151 species, or check if the spelling is correct! ")
             }
         }
     }
