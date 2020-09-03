@@ -347,6 +347,7 @@ let returnLookup = (e) => {
             console.log(indexNumber) //index starts from 0; works
 
             getData2(indexNumber);
+            input.value = "";
 
         }
         else {
