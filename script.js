@@ -86,6 +86,10 @@ const getData2 = (parameter1) => {
             // pokemonFlavourText2 = response.data.flavor_text_entries÷[pokemonFlavourText1 - 3].flavor_text;
             pokemonFlavourText2 = response.data.flavor_text_entries[0].flavor_text;
 
+            if (response.data.flavor_text_entries[0].language.name != "en") {
+                pokemonFlavourText2 = response.data.flavor_text_entries[1].flavor_text;
+            }
+
             console.log(response.data, pokemonFlavourText1, pokemonFlavourText2);
 
             //TODO: BUILD HTML -------------------------------------------------------------------START HERE
