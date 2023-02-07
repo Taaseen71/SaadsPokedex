@@ -109,7 +109,11 @@ const getData2 = (parameter1) => {
             let poster1 = document.createElement('img');
             poster1.title = title1.innerText;
             poster1.className += 'bastionbot2';
-            poster1.src = `https://pokeres.bastionbot.org/images/pokemon/${parameter1}.png`
+            var str = "" + parameter1
+            var pad = "000"
+            var strNum = pad.substring(0, pad.length - str.length) + str
+            poster1.src = `./Images/pokemon-images/${strNum}.png`
+            // poster1.src = `./Images/pokemon-images/001.png`
             div1.appendChild(poster1);
 
             let div2 = document.createElement('div');
@@ -252,7 +256,11 @@ const PkMnList = (parameter1) => {
         let poster1 = document.createElement('img');
         poster1.title = title1.innerText;
         poster1.className += 'bastionbot';
-        poster1.src = `https://pokeres.bastionbot.org/images/pokemon/${i + 1}.png`
+        var str = "" + (i + 1)
+        var pad = "000"
+        var strNum = pad.substring(0, pad.length - str.length) + str
+        poster1.src = `./Images/pokemon-images/${strNum }.png`
+        // poster1.src = `./Images/pokemon-images/001.png`
         title1.appendChild(poster1);
     }
     // this.document.querySelector('main').appendChild(div1);
